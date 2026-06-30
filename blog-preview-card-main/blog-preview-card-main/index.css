@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+p {
+  font-size: 16px;
+}
+h1 {
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+body {
+  font-family: Figtree;
+  font-weight: 500, 800;
+  background-color: hsl(47, 88%, 63%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  background-color: hsl(0, 0%, 100%);
+  width: 375px;
+  border-radius: 20px;
+  box-shadow: 8px 8px 0px black;
+}
+.container:hover {
+  cursor: pointer;
+}
+.image-container img {
+  width: 100%;
+  border-radius: 10px;
+}
+.image-container {
+  margin: 20px;
+  border-radius: 10px;
+}
+.publishing-date {
+  margin: 10px;
+  padding: 10px;
+}
+.publishing-date h3 {
+  display: inline-block;
+  background-color: hsl(47, 88%, 63%);
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+}
+.foundations,
+.publisher {
+  margin: 20px;
+}
+.publisher {
+  display: flex;
+  flex-direction: row;
+}
+.publisher p {
+  padding: 15px;
+  font-weight: bold;
+}
